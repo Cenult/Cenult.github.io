@@ -58,6 +58,9 @@ button {
 button:hover {
     background-color: rgba(26, 55, 144, 0.7);
 }
+.active-button button {
+    background-color: #03182e;
+}
 
 .menu_bar ul {
     display: inline-flex;
@@ -201,6 +204,45 @@ h1.mess-menu {
 .main_body .photos .blocks .sub-block ul li {
     padding: 5px;
 }
+.main_body .contact-head {
+    background-color: #0c1a2b;
+    color: #fff;
+    padding: 15px;
+}
+.main_body .contact-head h2 {
+    font-weight: 100;
+}
+.main_body .contact-head1 {
+    display: flex;
+    
+}
+.main_body .contact-head1 .contact-columns {
+    width:100%;
+    background-color: #0f243d;
+    padding: 20px;
+    color: #fff;
+}
+.main_body .contact-us {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+.main_body .contact-us-h2 {
+    color:rgb(253, 247, 198);
+}
+.main_body .contact-us-h2 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    padding: 15px;
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+
+.main_body .contact-para {
+    background-color: #0f243d;
+    padding: 30px;
+    padding-left: 15px;
+    color: #fff;
+}
 
 .main_body .photos hr {
     margin: 0;
@@ -231,9 +273,7 @@ video source {
     margin-top: 30px;
 }
 
-.main_body video {
-    margin-top: 0px;
-}
+
 
 footer {
     background-color: #102f52;
