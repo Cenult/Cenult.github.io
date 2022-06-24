@@ -21,14 +21,14 @@ div.top_bar {
 .top_bar .main_logo {
 
     
-    width: 30vw;
+    width: 400px;
     padding-bottom: 0;
 }
 .top_bar label {
-    font-size: 1vw;
+    font-size: 14px;
 }
 .top_bar label select {
-    font-size: 1vw;
+    font-size: 14px;
 }
 
 body {
@@ -328,7 +328,6 @@ footer {
     display: block;
     padding: 15px;
     margin: 20px;
-    margin-left: 2vw;
 
 
 }
@@ -372,9 +371,12 @@ footer p {
         margin-top: 30px;
         text-align: center;
     }
-    
+    .menu_bar .logo {
+        margin-left: 0;
+    }
     footer {
         font-size: smaller;
+        align-items: center;
     }
     .main_body video {
         align-self: center;
@@ -387,5 +389,54 @@ footer p {
     
     .upper_body .right-bar-hostel {
         max-width: 100%
+    }
+}
+@media (max-width: 600px) {
+    .top_bar .main_logo {
+
+    
+        width: 66vw;
+        
+    }
+    .top_bar label {
+        font-size: 2.3vw;
+        text-align: right;
+    }
+    .top_bar label select {
+        font-size: 2.3vw;
+    }
+    button {
+        font-size: 2vw;
+        padding: 4px 14px;
+        
+    }
+    .menu_bar {
+        font-weight: 30;
+        font-size: 2vw;
+    }
+    .menu_bar .logo {
+        width: 15vw;
+        margin-left: 0;
+    }
+    .upper_body {
+        margin-top: 20px;
+    
+        font-weight: 500;
+        font-size: 2vw;
+        padding: 0px 1%;
+    }
+    .main_body h1 {
+        font-size: 3vw;
+    }
+    .footer_bar {
+        
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        font-size: 2vw;
+    }
+    .footer {
+        font-size: 2vw;
     }
 }
