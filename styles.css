@@ -20,8 +20,15 @@ div.top_bar {
 
 .top_bar .main_logo {
 
-    max-height: 120px;
+    
+    width: 30vw;
     padding-bottom: 0;
+}
+.top_bar label {
+    font-size: 1vw;
+}
+.top_bar label select {
+    font-size: 1vw;
 }
 
 body {
@@ -39,15 +46,24 @@ body {
     text-align: center;
     align-items: center;
     padding: 0px 1%;
+    width: 100%;
+    
 
+}
+.menu_bar .navigation {
+    display: flex;
+    justify-content: centre;
+    flex-wrap: wrap;
 }
 
 .menu_bar .logo {
+    position: relative;
     max-width: 160px;
     margin-left: 10px;
 }
 
 button {
+    position: relative;
     font-size: 1em;
     padding: 9px 25px;
     background-color: rgba(26, 55, 144, 1);
@@ -68,12 +84,14 @@ button:hover {
     display: inline-flex;
     list-style: none;
     color: #fff;
+    text-align: center;
 }
 
 .menu_bar ul li {
     max-width: 200px;
     margin: 15px;
     padding: 15px;
+    flex-direction: column;
 }
 
 .menu_bar ul li a {
@@ -94,6 +112,7 @@ button:hover {
 
 .menu_bar ul li:hover .sub-menu {
     display: block;
+    z-index: 2;
     position: absolute;
     background: #1c2f45;
     margin-top: 15px;
@@ -156,13 +175,16 @@ h1.mess-menu {
     padding: 40px;
     text-align: left;
     border-radius: 20px;
-    width: 28%;
+    max-width: 28%;
 
 
 }
+.upper_body .right-bar-hostel {
+    max-width: 50%;
+}
 
 .upper_body .right-bar-hostel img {
-    max-width: 700px;
+    max-width: 100%;
 }
 
 .upper_body .right-bar ul li a {
@@ -178,8 +200,8 @@ h1.mess-menu {
 
 .main_body .photos img {
 
-    max-height: 300px;
-    padding: 10px;
+    max-height: 20vw;
+    padding: 1vw;
 }
 
 .main_body .photos .blocks {
@@ -188,10 +210,10 @@ h1.mess-menu {
 }
 
 .main_body .photos .blocks .sub-block {
-    padding: 15px;
-    margin: 15px;
+    padding: 1vw;
+    margin: 1vw;
     width: 300px;
-
+    font-size: 1vw;
 }
 
 .main_body .photos .blocks .sub-block h2 {
@@ -306,7 +328,7 @@ footer {
     display: block;
     padding: 15px;
     margin: 20px;
-    margin-left: 40px;
+    margin-left: 2vw;
 
 
 }
@@ -328,4 +350,42 @@ footer p {
 
     color: #fff;
     text-align: center;
+}
+
+@media (max-width: 991px) {
+    header .menu_bar {
+        padding: 10px 20px;
+        flex-direction: column;
+    }
+    header .cta  {
+        z-index: 1;
+    }
+    .upper_body {
+        flex-direction: column;
+    }
+    .upper_body .right-bar {
+        max-width: fit-content;
+    }
+    .upper_body .left-bar {
+        padding: 15px;
+        margin-bottom: 40px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    footer {
+        font-size: smaller;
+    }
+    .main_body video {
+        align-self: center;
+        max-width: 100%;
+    }
+    .main_body .video {
+        text-align: center;
+    }
+    
+    
+    .upper_body .right-bar-hostel {
+        max-width: 100%
+    }
 }
