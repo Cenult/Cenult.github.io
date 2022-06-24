@@ -1,6 +1,8 @@
+/*Importing Font Styles from googles fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
 
+/* Setting the margin of whole webpage to be 0*/
 * {
     margin: 0;
     padding: 0;
@@ -20,13 +22,15 @@ div.top_bar {
 
 .top_bar .main_logo {
 
-    
+
     width: 400px;
     padding-bottom: 0;
 }
+
 .top_bar label {
     font-size: 14px;
 }
+
 .top_bar label select {
     font-size: 14px;
 }
@@ -47,9 +51,10 @@ body {
     align-items: center;
     padding: 0px 1%;
     width: 100%;
-    
+
 
 }
+
 .menu_bar .navigation {
     display: flex;
     justify-content: centre;
@@ -76,6 +81,7 @@ button {
 button:hover {
     background-color: rgba(26, 55, 144, 0.7);
 }
+
 .active-button button {
     background-color: #03182e;
 }
@@ -179,6 +185,7 @@ h1.mess-menu {
 
 
 }
+
 .upper_body .right-bar-hostel {
     max-width: 50%;
 }
@@ -228,31 +235,38 @@ h1.mess-menu {
 .main_body .photos .blocks .sub-block ul li {
     padding: 5px;
 }
+
 .main_body .contact-head {
     background-color: #0c1a2b;
     color: #fff;
     padding: 15px;
 }
+
 .main_body .contact-head h2 {
     font-weight: 100;
 }
+
 .main_body .contact-head1 {
     display: flex;
-    
+
 }
+
 .main_body .contact-head1 .contact-columns {
-    width:100%;
+    width: 100%;
     background-color: #0f243d;
     padding: 20px;
     color: #fff;
 }
+
 .main_body .contact-us {
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 30px;
 }
+
 .main_body .contact-us-h2 {
-    color:rgb(253, 247, 198);
+    color: rgb(253, 247, 198);
 }
+
 .main_body .contact-us-h2 h2 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
@@ -356,86 +370,104 @@ footer p {
         padding: 10px 20px;
         flex-direction: column;
     }
-    header .cta  {
+
+    header .cta {
         z-index: 1;
     }
+
     .upper_body {
         flex-direction: column;
     }
+
     .upper_body .right-bar {
         max-width: fit-content;
     }
+
     .upper_body .left-bar {
         padding: 15px;
         margin-bottom: 40px;
         margin-top: 30px;
         text-align: center;
     }
+
     .menu_bar .logo {
         margin-left: 0;
     }
+
     footer {
         font-size: smaller;
         align-items: center;
     }
+
     .main_body video {
         align-self: center;
         max-width: 100%;
     }
+
     .main_body .video {
         text-align: center;
     }
-    
-    
+
+
     .upper_body .right-bar-hostel {
         max-width: 100%
     }
 }
+
 @media (max-width: 600px) {
     .top_bar .main_logo {
 
-    
+
         width: 66vw;
-        
+
     }
+
     .top_bar label {
         font-size: 2.3vw;
         text-align: right;
     }
+
     .top_bar label select {
         font-size: 2.3vw;
     }
+
     button {
         font-size: 2vw;
         padding: 4px 14px;
-        
+
     }
+
     .menu_bar {
         font-weight: 30;
         font-size: 2vw;
     }
+
     .menu_bar .logo {
         width: 15vw;
         margin-left: 0;
     }
+
     .upper_body {
         margin-top: 20px;
-    
+
         font-weight: 500;
         font-size: 2vw;
         padding: 0px 1%;
     }
+
     .main_body h1 {
         font-size: 3vw;
     }
+
     .footer_bar {
-        
+
         text-align: center;
         align-items: center;
         justify-content: space-between;
         padding: 0;
         font-size: 2vw;
     }
+
     .footer {
         font-size: 2vw;
     }
