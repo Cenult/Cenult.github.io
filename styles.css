@@ -220,7 +220,7 @@ h1.mess-menu {
     padding: 1vw;
     margin: 1vw;
     width: 300px;
-    font-size: 1vw;
+    font-size: 1.1vw;
 }
 
 .main_body .photos .blocks .sub-block h2 {
@@ -234,6 +234,10 @@ h1.mess-menu {
 
 .main_body .photos .blocks .sub-block ul li {
     padding: 5px;
+}
+.main_body .image-desc {
+    display: flex;
+    width: 50%;
 }
 
 .main_body .contact-head {
@@ -421,6 +425,9 @@ footer p {
         width: 66vw;
 
     }
+    .main_body .image-desc {
+        width: 100%;
+    }
 
     .top_bar label {
         font-size: 2.3vw;
@@ -470,5 +477,22 @@ footer p {
 
     .footer {
         font-size: 2vw;
+    }
+    .main_body .photos .blocks {
+        display: block;
+        
+        color: #fff;
+    }
+    .main_body .photos .blocks .sub-block {
+        font-size: 2vw;
+    }
+    .main_body .main-contact {
+        font-size: 2vw;
+    }
+    .main_body .contact-us {
+        font-size: 10vw;
+    }
+    .main_body .contact-us-h2 {
+        font-size: 6vw;
     }
 }
